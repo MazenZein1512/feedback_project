@@ -1,5 +1,4 @@
 {
     "editor.fontSize": 14,
-    "emmet.includeLanguages": {"django-html":"html"},
-    "gitignore.cacheExpirationInterval": 3600
+    "emmet.includeLanguages": {"django-html":"html"}
 }
