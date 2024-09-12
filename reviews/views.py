@@ -16,8 +16,8 @@ from .models import Review
 
 class ReviewView(CreateView):
     model = Review
-    form_class = ReviewForm
-    # fields = "__all__"
+    # form_class = ReviewForm
+    fields = "__all__"
     template_name = "reviews/review.html"
     success_url = "/thank-you"
     
